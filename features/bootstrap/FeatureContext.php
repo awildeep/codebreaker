@@ -33,12 +33,53 @@ class FeatureContext extends BehatContext
 //
 // Place your definition and hook methods here:
 //
-//    /**
-//     * @Given /^I have done something with "([^"]*)"$/
-//     */
-//    public function iHaveDoneSomethingWith($argument)
-//    {
-//        doSomethingWith($argument);
-//    }
-//
+
+
+    /**
+     * @Given /^I am not yet playing$/
+     */
+    public function iAmNotYetPlaying()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @When /^I start a new game$/
+     */
+    public function iStartANewGame()
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then /^I should see "([^"]*)"$/
+     */
+    public function iShouldSee($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Given /^the secret code is "([^"]*)"$/
+     */
+    public function theSecretCodeIs($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @When /^I guess "([^"]*)"$/
+     */
+    public function iGuess($arg1)
+    {
+        throw new PendingException();
+    }
+
+    /**
+     * @Then /^the mark should be "([^"]*)"$/
+     */
+    public function theMarkShouldBe($arg1)
+    {
+        throw new PendingException();
+    }
 }
