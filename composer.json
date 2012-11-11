@@ -1,0 +1,16 @@
+{
+    "name": "awildeep/codebreaker",
+    "description": "Codebreaker PHP",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "behat/behat": "2.4.*@stable",
+        "phpspec/phpspec2": "*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev"
+}
